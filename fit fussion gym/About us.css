@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(120deg,#345, #567 );
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15pt;
+}
+.image-wrapper {
+    float: right; 
+    margin-right: 50px; 
+    margin-top: 100px;
+}

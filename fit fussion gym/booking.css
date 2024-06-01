@@ -1,0 +1,114 @@
+.navbackground {
+    background-color: transparent;
+  }
+  
+  .logo {
+    display: flex;
+  
+    padding: 0px;
+    position: absolute;
+    top:3%;
+    left: 3%;
+    z-index: 1;
+   
+  }
+  
+  .nav-links {
+    padding: 0;
+    position: absolute;
+    top: 5%;
+   left:57%;
+   
+    text-align: right;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 25, 82);
+  }
+  body {
+    background: linear-gradient(120deg,#345, #567);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  background: linear-gradient(120deg,rgb(44, 63, 82), #567);
+  
+}
+ .booking {
+    top: 20%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer{
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Place the footer at the bottom of the viewport */
+    background: #333d7d;
+    padding-top: 50px;
+    width: 100%;
+  
+  }
+  .container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer-content{
+    width: 33.3%;
+  }
+  
+  .footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+  }
+  .footer-content ul{
+    text-align: center;
+  }
+  .list{
+    padding: 0;
+  }
+  .list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+  }
+  
+  a{
+    color: black;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: whitesmoke;
+  }
+  
+  .bottom-bar{
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    width: 100%;
+ 
+  }
+  .bottom-bar p{
+    color: whitesmoke;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    text-align:center;
+  }
+ 
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="center">
+            <h1>Sign Up</h1>
+
+            <form action="SignUp.php" method="POST" id="signupForm">
+                <div class="txt_field">
+                    <input type="text" name="username" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="text" name="email" required>
+                    <span></span>
+                    <label>Email</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" name="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <input name="submit" type="submit" value="Sign Up">
+                <div class="login_link">
+                    Already a Member ? <a href="login.html">Log In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

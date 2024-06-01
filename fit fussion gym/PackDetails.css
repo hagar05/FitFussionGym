@@ -1,0 +1,115 @@
+.navbackground {
+    background-color: transparent;
+  }
+  
+  .logo {
+    display: flex;
+  
+    padding: 0px;
+    position: absolute;
+    top:3%;
+    left: 3%;
+    z-index: 1;
+   
+  }
+  
+  .nav-links {
+    padding: 0;
+    position: absolute;
+    top: 5%;
+   left:57%;
+   
+    text-align: right;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 25, 82);
+  }
+  body {
+    background: linear-gradient(120deg,#345, #567);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  background: linear-gradient(120deg,rgb(44, 63, 82), #567);
+  
+}
+#navigatebutton {
+  width: 15%;
+  height: 50px;
+  padding: 15px 25px;
+border: unset;
+border-radius: 15px;
+color: #212121;
+z-index: 1;
+background: #e8e8e8;
+position: relative;
+font-weight: 1000;
+font-size: 17px;
+-webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+transition: all 250ms;
+overflow: hidden;
+}
+
+#navigatebutton:hover{
+  background: rgb(10, 25, 82);
+  color: #e9f4fb;
+  transition: .5s;
+}
+#button1 {
+  width: 15%;
+  height: 50px;
+  padding: 15px 25px;
+border: unset;
+border-radius: 15px;
+color: #212121;
+z-index: 1;
+background: #e8e8e8;
+position: relative;
+font-weight: 1000;
+font-size: 17px;
+-webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+transition: all 250ms;
+overflow: hidden;
+}
+
+#button1:hover{
+  background: rgb(10, 25, 82);
+  color: #e9f4fb;
+  transition: .5s;
+}
+#button2{
+  width: 15%;
+  height: 50px;
+  padding: 15px 25px;
+border: unset;
+border-radius: 15px;
+color: #212121;
+z-index: 1;
+background: #e8e8e8;
+position: relative;
+font-weight: 1000;
+font-size: 17px;
+-webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+transition: all 250ms;
+overflow: hidden;
+}
+
+#button2:hover{
+  background: rgb(10, 25, 82);
+  color: #e9f4fb;
+  transition: .5s;
+}
